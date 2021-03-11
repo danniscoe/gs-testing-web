@@ -4,6 +4,7 @@ plugins {
 	id 'java'
 }
 
+
 group = 'com.example'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
@@ -14,6 +15,8 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'junit:junit:4.12'
+	implementation 'org.junit.jupiter:junit-jupiter:5.4.2'
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
 
